@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springcloud_eureka_server" />
         <module name="springcloud_member" />
         <module name="springcloud_eureka_server_jiqun" />
+        <module name="springcloud_eureka_server" />
         <module name="springcloud_order" />
       </profile>
     </annotationProcessing>

@@ -57,6 +57,7 @@ public class MemberController {
     }
     @RequestMapping("/getMember")
     public String getMember() {
+        System.out.println("进入会员端");
         return "这是会员端,端口号是:"+port;
     }
 
